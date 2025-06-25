@@ -21,6 +21,8 @@ import {
   python,
   tenserflow,
   postman,
+  expense,
+  object,
   fastapi,
   walmart,
   bws,
@@ -175,7 +177,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: object,
     source_code_link: "https://github.com/varunkm11/Object-Detection-System",
   },
   {
@@ -196,7 +198,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: expense,
     source_code_link: "https://github.com/varunkm11/Expense-Tracker",
   },
   {

@@ -36,6 +36,8 @@ import bws from "./company/bws.png";
 import walmart from "./company/walmart.png";
 
 import carrent from "./carrent.png";
+import expense from "./expense.png";
+import object from "./object.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -73,6 +75,8 @@ export {
   starbucks,
   tesla,
   bws,
+  expense,
+  object,
   walmart,
   carrent,
   jobit,
