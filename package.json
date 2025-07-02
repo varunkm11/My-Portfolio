@@ -9,7 +9,7 @@
   "lint": "eslint .",
   "preview": "vite preview",
   "postinstall": "chmod +x node_modules/.bin/vite"
-}
+},
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
