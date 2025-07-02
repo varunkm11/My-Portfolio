@@ -1,0 +1,86 @@
+# Varun's Resume
+
+## Contact Information
+- Email: varun@example.com
+- Phone: +1 (555) 123-4567
+- LinkedIn: linkedin.com/in/varun
+- GitHub: github.com/varun
+- Portfolio: varun-portfolio.com
+
+## Professional Summary
+Passionate Full-Stack Developer with expertise in modern web technologies including React, Node.js, and cloud platforms. Experienced in building scalable applications and creating exceptional user experiences.
+
+## Technical Skills
+### Frontend
+- React.js, JavaScript (ES6+), TypeScript
+- HTML5, CSS3, Tailwind CSS
+- Three.js, Framer Motion
+- Responsive Design, Progressive Web Apps
+
+### Backend
+- Node.js, Express.js
+- MongoDB, PostgreSQL, SQLite
+- RESTful APIs, GraphQL
+- Authentication & Authorization
+
+### Tools & Technologies
+- Git, GitHub, VS Code
+- Azure, AWS
+- Docker, CI/CD
+- Figma, Adobe Creative Suite
+
+## Professional Experience
+
+### Full-Stack Developer | Tech Company
+*January 2023 - Present*
+- Developed and maintained responsive web applications using React and Node.js
+- Implemented modern UI/UX designs with Tailwind CSS and Framer Motion
+- Built RESTful APIs and integrated third-party services
+- Collaborated with cross-functional teams using Agile methodologies
+- Optimized application performance resulting in 40% faster load times
+
+### Frontend Developer | Startup Inc.
+*June 2022 - December 2022*
+- Created interactive user interfaces using React and modern JavaScript
+- Implemented responsive designs for mobile and desktop platforms
+- Worked closely with designers to translate mockups into functional components
+- Participated in code reviews and maintained coding standards
+
+## Featured Projects
+
+### E-Learning Platform
+- Built a comprehensive online learning platform with React and Node.js
+- Implemented user authentication, course management, and progress tracking
+- Integrated payment processing and real-time notifications
+
+### Game Engine
+- Developed a custom 2D game engine using JavaScript and Canvas API
+- Implemented physics simulation and collision detection
+- Created level editor with drag-and-drop functionality
+
+### Accessories E-commerce
+- Built a full-stack e-commerce solution with shopping cart functionality
+- Integrated Stripe payment processing and inventory management
+- Implemented admin dashboard for order and product management
+
+## Education
+
+### Bachelor of Science in Computer Science
+*University Name | 2019 - 2023*
+- Relevant Coursework: Data Structures, Algorithms, Software Engineering
+- GPA: 3.8/4.0
+
+## Certifications
+- AWS Certified Developer Associate
+- Microsoft Azure Fundamentals
+- React Developer Certification
+
+## Languages
+- English (Native)
+- Spanish (Conversational)
+
+---
+
+Thank you for considering my application. I'm excited about the opportunity to contribute to your team!
+
+Download Date: ${new Date().toLocaleDateString()}
