@@ -8,7 +8,7 @@ A modern, responsive portfolio website built with React, Vite, and TailwindCSS f
 
 ## 📸 Preview
 
-![Portfolio Preview](public/assets/coding-pov.png)
+![Portfolio Preview](public/assets/preview.png)
 
 ## ✨ Features
 
