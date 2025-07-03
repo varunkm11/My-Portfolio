@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React, Vite, and TailwindCSS f
 
 ## 🌟 Live Demo
 
-**[View Live Portfolio](https://my-portfolio-2rggjgbh8-varun-kumar-singhs-projects-3f9d06df.vercel.app)**
+**[View Live Portfolio](https://my-portfolio-ten-pi-48.vercel.app/)**
 
 ## 📸 Preview
 
