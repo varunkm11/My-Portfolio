@@ -188,11 +188,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Varun Kumar Singh**
-- Portfolio: [my-portfolio-2rggjgbh8-varun-kumar-singhs-projects-3f9d06df.vercel.app](https://my-portfolio-2rggjgbh8-varun-kumar-singhs-projects-3f9d06df.vercel.app)
+- Linke: [@Varun Kumar Singh](https://www.linkedin.com/in/varun-kumar-singh-267951269/)
 - GitHub: [@varunkm11](https://github.com/varunkm11)
 
 ## 🙏 Acknowledgments
-
 - [Three.js](https://threejs.org/) for 3D graphics
 - [Framer Motion](https://www.framer.com/motion/) for animations
 - [TailwindCSS](https://tailwindcss.com/) for styling
