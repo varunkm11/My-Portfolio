@@ -10,7 +10,7 @@ export const myProjects = [
       "Utilized PostgreSQL for efficient data management, ensuring high performance and reliability.",
       "Integrated third-party APIs for product sourcing, payment processing, and shipping logistics.",
     ],
-    href: "",
+    href: "https://github.com/yourusername/ecommerce-platform", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
@@ -53,7 +53,7 @@ export const myProjects = [
       "Django backend manages core logic and API endpoints.",
       "User data securely stored using a protected SQLite database.",
     ],
-    href: "",
+    href: "https://ai-resume-analyzer-teal.vercel.app/", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/resume_ai.png",
     tags: [
@@ -101,7 +101,7 @@ export const myProjects = [
       "Integrated FastAPI for a robust backend, providing RESTful API endpoints.",
       "Utilized PostgreSQL for efficient and reliable data storage, ensuring data integrity and performance.",
     ],
-    href: "",
+    href: "https://github.com/varunkm11/Expense-Tracker", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/blazor-app.jpg",
     tags: [
@@ -133,7 +133,7 @@ export const myProjects = [
       'Implemented secure API key management with Streamlit secrets.',
       'Designed for fast, creative responses and an intuitive user experience.',
     ],
-    href: "",
+    href: "https://roseew-ai-chatbot.vercel.app/", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/bot_preview.png",
     tags: [
@@ -175,7 +175,7 @@ export const myProjects = [
       "Enhanced performance and efficiency, leveraging Vite.js for rapid development and optimized builds.",
       "Implemented custom modules and ensured compatibility with various plugins to extend system functionality.",
     ],
-    href: "",
+    href: "https://github.com/varunkm11/Object-Detection-System", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/wordpress-theme.jpg",
     tags: [
