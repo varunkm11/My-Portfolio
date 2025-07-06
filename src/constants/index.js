@@ -10,7 +10,7 @@ export const myProjects = [
       "Utilized PostgreSQL for efficient data management, ensuring high performance and reliability.",
       "Integrated third-party APIs for product sourcing, payment processing, and shipping logistics.",
     ],
-    href: "https://github.com/yourusername/ecommerce-platform", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/ecommerce-platform", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/accessories.jpg",
     tags: [
