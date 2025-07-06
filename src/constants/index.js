@@ -55,7 +55,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/resume_ai.png",
     tags: [
       {
         id: 1,
@@ -64,23 +64,28 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Django",
-        path: "/assets/logos/Django.svg",
+        name: "Flask",
+        path: "/assets/logos/Flask.svg",
       },
       {
         id: 3,
-        name: "React",
-        path: "/assets/logos/React.svg",
+        name: "HTML5",
+        path: "/assets/logos/HTML5.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/Tailwind CSS.svg",
+        name: "CSS3",
+        path: "/assets/logos/CSS3.svg",
       },
       {
         id: 5,
-        name: "PostgreSQL",
-        path: "/assets/logos/Postgresql.svg",
+        name: "JavaScript",
+        path: "/assets/logos/JavaScript.svg",
+      },
+      {
+        id: 5,
+        name: "Vercel",
+        path: "/assets/logos/Vercel.svg",
       },
     ],
   },
@@ -130,7 +135,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/bot_preview.png",
     tags: [
       {
         id: 1,
@@ -139,13 +144,23 @@ export const myProjects = [
       },
       {
         id: 2,
+        name: "Flask",
+        path: "/assets/logos/Flask.svg",
+      },
+      {
+        id: 3,
+        name: "HTML5",
+        path: "/assets/logos/HTML5.svg",
+      },
+      {
+        id: 4,
         name: "OpenRouter",
         path: "/assets/logos/OpenRouter.svg",
       },
       {
-        id: 3,
-        name: "Streamlit",
-        path: "/assets/logos/Streamlit.svg",
+        id: 5,
+        name: "Vercel",
+        path: "/assets/logos/Vercel.svg",
       },
     ],
   },

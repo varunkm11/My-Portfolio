@@ -14,9 +14,11 @@ export function Frameworks() {
     "NumPy",
     "TensorFlow",
     "Pandas",
-    "MySQL",
+    "Matplotlib",
+    "MongoDB",
+    "Postgresql",
     "Git",
-    "Streamlit",
+    "Vercel",
     "Docker",
   ];
   return (
