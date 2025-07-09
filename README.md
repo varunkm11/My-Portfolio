@@ -185,11 +185,11 @@ theme: {
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
+## 🧑🏻‍💻 Developer
 
 **Varun Kumar Singh**
-- Linke: [@Varun Kumar Singh](https://www.linkedin.com/in/varun-kumar-singh-267951269/)
-- GitHub: [@varunkm11](https://github.com/varunkm11)
+- LinkedIn: [Varun Kumar Singh](https://www.linkedin.com/in/varun-kumar-singh-267951269/)
+- GitHub: [varunkm11](https://github.com/varunkm11)
 
 ## 🙏 Acknowledgments
 - [Three.js](https://threejs.org/) for 3D graphics
