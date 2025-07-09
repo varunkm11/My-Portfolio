@@ -259,9 +259,11 @@ export const experiences = [
     job: "Softwware Engineering Job Simulation",
     date: "May 2024-July 2024",
     contents: [
-      "Engineered a custom heap data structure in Java for Walmart’s shipping optimization, improving runtime efficiency by 25%",
-      "Designed UML class diagrams for a multi-mode data processor, integrating robust database connectivity.",
-      "Created an entity-relationship diagram for a pet department database, enhancing data retrieval speed by 15\%",
+     " Applied advanced data structures to solve real-world challenges.",
+      "Designed scalable software systems following architecture best practices.",
+      "Created normalized databases and optimized SQL queries.",
+      "Cleaned and transformed data using Python and Pandas.",
+      "Simulated team collaboration using Walmart workflows and tools.",
     ],
   },
   {
@@ -269,11 +271,11 @@ export const experiences = [
     job: "Web Developer Intern",
     date: " May 2025 - June 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Web Application Development: Built interactive web apps using HTML, CSS, JavaScript, Node.js, and MongoDB.",     
+      "Team Collaboration: Assisted in developing backend logic and integrating databases alongside senior developers.",
+      "Debugging and Optimization: Identified and resolved performance issues to improve functionality and user experience.",
+      "Cross-Platform Support: Ensured scalability and compatibility across devices and browsers.",
+      "Tech Stack: MERN (MongoDB, Express.js, React.js, Node.js), Next.js, Tailwind CSS",
     ],
   },
 ];
