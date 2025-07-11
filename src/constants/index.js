@@ -254,28 +254,28 @@ export const mySocials = [
 ];
 
 export const experiences = [
-  {
-    title: "Walmart Global Tech",
-    job: "Softwware Engineering Job Simulation",
-    date: "May 2024-July 2024",
-    contents: [
-      "• Applied advanced data structures to solve real-world challenges.",
-      "• Designed scalable software systems following architecture best practices.",
-      "• Created normalized databases and optimized SQL queries.",
-      "• Cleaned and transformed data using Python and Pandas.",
-      "• Simulated team collaboration using Walmart workflows and tools.",
-    ],
-  },
-  {
+    {
     title: "Business Web Solutions",
     job: "Web Developer Intern",
-    date: " May 2025 - June 2025",
+    date: " May 2025 - July 2025",
     contents: [
       "• Web Application Development: Built interactive web apps using HTML, CSS, JavaScript, Node.js, and MongoDB.",     
       "• Team Collaboration: Assisted in developing backend logic and integrating databases alongside senior developers.",
       "• Debugging and Optimization: Identified and resolved performance issues to improve functionality and user experience.",
       "• Cross-Platform Support: Ensured scalability and compatibility across devices and browsers.",
       "• Tech Stack: MERN (MongoDB, Express.js, React.js, Node.js), Next.js, Tailwind CSS",
+    ],
+  },
+  {
+    job: "Data Science & Data Analystics Intern",
+    title: "Future Interns",
+    date: "July 2025-August 2025",
+    contents: [
+      "• Utilized Python, Pandas, and NumPy for data cleaning, transformation, and analysis.",
+      "• Created a public GitHub repository to document project work and assignments.",
+      "• Delivered data-driven insights by applying statistical methods and visualization tools.",
+      "• Documented project milestones and data workflows through version control and professional networking platforms.",
+      "• Collaborated in a professional internship setup, meeting deadlines and adhering to structured project goals.",
     ],
   },
 ];
