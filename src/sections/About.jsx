@@ -19,8 +19,9 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Varun Kumar Singh</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+              Over the last 1 years, I have honed my Python development skills,
+              building robust backend systems, automating workflows, and
+              delivering efficient software solutions for diverse applications.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
