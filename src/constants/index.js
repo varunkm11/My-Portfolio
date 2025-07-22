@@ -243,7 +243,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/varun-kumar-singh-267951269",
+    href: "www.linkedin.com/in/varunkm11",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
