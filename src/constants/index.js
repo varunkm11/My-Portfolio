@@ -103,7 +103,7 @@ export const myProjects = [
     ],
     href: "https://github.com/varunkm11/Expense-Tracker", // Replace with your actual GitHub repo URL
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/Expense_Tracker.png",
     tags: [
       {
         id: 1,

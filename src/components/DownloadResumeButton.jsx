@@ -13,7 +13,7 @@ const DownloadResumeButton = () => {
       setIsDownloading(false);
       
       // Open Google Drive link in new tab (users can preview and download from there)
-      const driveLink = 'https://drive.google.com/file/d/1NOAgmRDRPckNicE3Yj4p-VTbkT33QfA7/view?usp=sharing';
+      const driveLink = 'https://drive.google.com/file/d/1qApYUxc0W7gGN2P8I6Q1PlR8Pdx_1xUN/view?usp=sharing';
       window.open(driveLink, '_blank');
     }, 1000);
   };
