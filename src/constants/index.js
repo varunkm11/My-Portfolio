@@ -8,7 +8,7 @@ export const myProjects = [
       "Implemented JSON-based data management for efficient product catalog handling and lightweight performance.",
       "Integrated Indian market localization including INR currency, 18% GST calculation, and region-specific shipping logic.",
     ],
-    href: "https://github.com/varunkm11/", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/Ecommerce-Website", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/ecommerce.png",
     tags: [
