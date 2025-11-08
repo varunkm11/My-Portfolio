@@ -2,22 +2,20 @@ export const myProjects = [
   {
     id: 1,
     title: "E-commerce Platform",
-    description:
-      "Enables users to shop from international platforms such as Amazon and eBay, providing seamless domestic delivery of products purchased from these sites. ",
     subDescription: [
-      "Built a scalable ecommerce web application using Django, leveraging its robust MVC architecture for maintainable development.",
-      "Implemented a RESTful API for seamless integration with frontend frameworks and mobile applications.",
-      "Utilized PostgreSQL for efficient data management, ensuring high performance and reliability.",
-      "Integrated third-party APIs for product sourcing, payment processing, and shipping logistics.",
+      "Built a minimalist e-commerce platform using Flask with dynamic pricing algorithms that optimize revenue based on demand, inventory, and competition.",
+      "Developed an intelligent pricing engine with demand forecasting and automated inventory optimization to prevent stockouts.",
+      "Implemented JSON-based data management for efficient product catalog handling and lightweight performance.",
+      "Integrated Indian market localization including INR currency, 18% GST calculation, and region-specific shipping logic.",
     ],
-    href: "https://github.com/varunkm11/ecommerce-platform", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/", // Replace with your actual GitHub repo URL
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/ecommerce.png",
     tags: [
       {
         id: 1,
-        name: "Django",
-        path: "/assets/logos/Django.svg",
+        name: "Flask",
+        path: "/assets/logos/Flask.svg",
       },
       {
         id: 2,
@@ -26,8 +24,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "PostgreSQL",
-        path: "/assets/logos/Postgresql.svg",
+        name: "JSON",
+        path: "/assets/logos/bracket-curly.png",
       },
       {
         id: 4,
