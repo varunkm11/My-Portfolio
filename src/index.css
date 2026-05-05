@@ -136,3 +136,19 @@ body {
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
 }
+
+/* Remove background from text and selections */
+::selection {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: transparent;
+}
+
+/* Clean text styling */
+h1, h2, h3, h4, h5, h6, p, span {
+  background-color: transparent !important;
+  text-decoration: none;
+  box-decoration-break: unset;
+}

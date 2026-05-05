@@ -10,16 +10,18 @@ import Footer from './sections/Footer';
 
 const App = () => {
   return (
-    <div className="container mx-auto max-w-7xl">
+    <>
       <Navbar />
       <Hero />
-      <About />
-      <Projects />
-      <Experiences />
-      <Testimonial />
-      <Contact />
-      <Footer/>
-    </div>
+      <div className="container mx-auto max-w-7xl">
+        <About />
+        <Projects />
+        <Experiences />
+        <Testimonial />
+        <Contact />
+        <Footer/>
+      </div>
+    </>
   );
 };
 

@@ -9,115 +9,56 @@ const HeroText = () => {
     visible: { opacity: 1, x: 0 },
   };
   return (
-    <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
-      {/* Desktop View */}
-      <div className="flex-col hidden md:flex c-space">
-        <motion.h1
-          className="text-4xl font-medium"
-          variants={variants}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: 1 }}
-        >
-          Hi I'm Varun
-        </motion.h1>
-        <div className="flex flex-col items-start">
-          <motion.p
-            className="text-5xl font-medium text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.2 }}
-          >
-            A Developer <br /> Dedicated to Crafting
-          </motion.p>
-          <motion.div
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.5 }}
-          >
-            <FlipWords
-              words={words}
-              className="font-black text-white text-8xl"
-            />
-          </motion.div>
-          <motion.p
-            className="text-4xl font-medium text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.8 }}
-          >
-            Web Solutions
-          </motion.p>
-          
-          {/* Download Resume Button */}
-          <motion.div
-            className="mt-8"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 2.2 }}
-          >
-            <DownloadResumeButton />
-          </motion.div>
-        </div>
-      </div>
-      {/* Mobile View */}
-      <div className="flex- flex-col space-y-6 md:hidden">
-        <motion.p
-          className="text-4xl font-medium"
-          variants={variants}
-          initial="hidden"
-          animate="visible"
-          transition={{ delay: 1 }}
-        >
-          Hi,I'm Varun
-        </motion.p>
-        <div>
-          <motion.p
-            className="text-5xl font-black text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.2 }}
-          >
-            Building
-          </motion.p>
-          <motion.div
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.5 }}
-          >
-            <FlipWords
-              words={words}
-              className="font-bold text-white text-7xl"
-            />
-          </motion.div>
-          <motion.p
-            className="text-4xl font-black text-neutral300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.8 }}
-          >
-            Web Applications
-          </motion.p>
-          
-          {/* Download Resume Button for Mobile */}
-          <motion.div
-            className="mt-8"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 2.2 }}
-          >
-            <DownloadResumeButton />
-          </motion.div>
-        </div>
-      </div>
+    <div className="relative z-10 mt-20 text-center md:mt-50 md:text-left flex flex-col items-start c-space">
+      <motion.h1
+        className="text-4xl font-medium"
+        variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 1 }}
+      >
+        Hi I'm Varun
+      </motion.h1>
+      <motion.p
+        className="text-5xl font-medium text-neutral-300"
+        variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 1.2 }}
+      >
+        A Developer <br /> Dedicated to Crafting
+      </motion.p>
+      <motion.div
+        variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 1.5 }}
+      >
+        <FlipWords
+          words={words}
+          className="font-black text-white text-8xl"
+        />
+      </motion.div>
+      <motion.p
+        className="text-4xl font-medium text-neutral-300"
+        variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 1.8 }}
+      >
+        Web Solutions
+      </motion.p>
+      
+      {/* Download Resume Button */}
+      <motion.div
+        className="mt-8"
+        variants={variants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 2.2 }}
+      >
+        <DownloadResumeButton />
+      </motion.div>
     </div>
   );
 };

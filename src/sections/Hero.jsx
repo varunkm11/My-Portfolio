@@ -1,48 +1,24 @@
-import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
-import ParallaxBackground from "../components/parallaxBackground";
-import { Astronaut } from "../components/Astronaut";
-import { Float } from "@react-three/drei";
-import { useMediaQuery } from "react-responsive";
-import { easing } from "maath";
-import { Suspense } from "react";
-import Loader from "../components/Loader";
+import { Particles } from "../components/Particles";
 
 const Hero = () => {
-  const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
-    <section id="home" className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
+    <section id="home" className="relative flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start">
+      {/* Stars Background - Full Coverage */}
+      <Particles
+        className="absolute inset-0 -z-50"
+        quantity={250}
+        staticity={80}
+        ease={50}
+        size={0.6}
+        color={"#ffffff"}
+        refresh
+      />
       <HeroText />
-      <ParallaxBackground />
-      <figure
-        className="absolute inset-0"
-        style={{ width: "100vw", height: "100vh" }}
-      >
-        <Canvas camera={{ position: [0, 1, 3] }}>
-          <Suspense fallback={<Loader />}>
-            <Float>
-              <Astronaut
-                scale={isMobile && 0.23}
-                position={isMobile && [0, -1.5, 0]}
-              />
-            </Float>
-            <Rig />
-          </Suspense>
-        </Canvas>
-      </figure>
+      {/* VIDEO PLACEMENT: Add your blackhole video here as a <video> element */}
+      {/* Example: <video className="absolute inset-0 -z-40 w-full h-full object-cover" autoPlay loop muted><source src="/path/to/video.mp4" type="video/mp4" /></video> */}
     </section>
   );
-};
-
-function Rig() {
-  return useFrame((state, delta) => {
-    easing.damp3(
-      state.camera.position,
-      [state.mouse.x / 10, 1 + state.mouse.y / 10, 3],
-      0.5,
-      delta
-    );
-  });
 }
 
 export default Hero;
