@@ -8,14 +8,21 @@ const DownloadResumeButton = () => {
   const handleDownload = () => {
     setIsDownloading(true);
     
-    // Simulate loading process
-    setTimeout(() => {
-      setIsDownloading(false);
+    try {
+      // Create a link element to download the resume
+      const link = document.createElement('a');
+      link.href = '/resume.txt';
+      link.download = 'Varun_Resume.txt';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
       
-      // Open Google Drive link in new tab (users can preview and download from there)
-      const driveLink = 'https://drive.google.com/file/d/1Ux49ExJzWZeZi5NBsw3LNXPOMrb-GQ3O/view?usp=sharing';
-      window.open(driveLink, '_blank');
-    }, 1000);
+      setIsDownloading(false);
+    } catch (error) {
+      console.error('Error downloading resume:', error);
+      setIsDownloading(false);
+      alert('Failed to download resume. Please try again.');
+    }
   };
 
   return (
