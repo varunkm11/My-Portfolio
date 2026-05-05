@@ -7,21 +7,15 @@ const DownloadResumeButton = () => {
 
   const handleDownload = () => {
     setIsDownloading(true);
-
-    // IMPORTANT: window.open must run synchronously from the click handler,
-    // otherwise most browsers will block it as a popup.
-    const driveLink =
-      "https://drive.google.com/file/d/1Ux49ExJzWZeZi5NBsw3LNXPOMrb-GQ3O/view?usp=sharing";
-
-    const newTab = window.open(driveLink, "_blank", "noopener,noreferrer");
-
-    // If the popup was blocked, fall back to opening in the same tab.
-    if (!newTab) {
-      window.location.assign(driveLink);
-    }
-
-    // Turn off the loading state after the click has been handled.
-    window.setTimeout(() => setIsDownloading(false), 400);
+    
+    // Simulate loading process
+    setTimeout(() => {
+      setIsDownloading(false);
+      
+      // Open Google Drive link in new tab (users can preview and download from there)
+      const driveLink = 'https://drive.google.com/file/d/1Ux49ExJzWZeZi5NBsw3LNXPOMrb-GQ3O/view?usp=sharing';
+      window.open(driveLink, '_blank');
+    }, 1000);
   };
 
   return (
