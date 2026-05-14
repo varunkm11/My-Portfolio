@@ -241,7 +241,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "www.linkedin.com/in/varunkm11",
+    href: "https://www.linkedin.com/in/varunkm11/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
