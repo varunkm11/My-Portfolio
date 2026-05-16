@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Stars Background - Full Coverage */}
       <Particles
         className="absolute inset-0 -z-50"
-        quantity={250}
+        quantity={120}
         staticity={80}
         ease={50}
         size={0.6}

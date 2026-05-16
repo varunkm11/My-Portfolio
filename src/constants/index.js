@@ -33,7 +33,7 @@ export const myProjects = [
         path: "/assets/logos/HTML5.svg",
       },
       {
-        id: 4,
+        id: 5,
         name: "CSS3",
         path: "/assets/logos/CSS3.svg",
       },
@@ -76,7 +76,7 @@ export const myProjects = [
         path: "/assets/logos/CSS3.svg",
       },
       {
-        id: 5,
+        id: 6,
         name: "JavaScript",
         path: "/assets/logos/JavaScript.svg",
       },
