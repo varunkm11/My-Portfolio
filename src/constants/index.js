@@ -1,41 +1,36 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Rag Pdf Chatbot",
     subDescription: [
-      "Built a minimalist e-commerce platform using Flask with dynamic pricing algorithms that optimize revenue based on demand, inventory, and competition.",
-      "Developed an intelligent pricing engine with demand forecasting and automated inventory optimization to prevent stockouts.",
-      "Implemented JSON-based data management for efficient product catalog handling and lightweight performance.",
-      "Integrated Indian market localization including INR currency, 18% GST calculation, and region-specific shipping logic.",
+      "Developed an AI-powered RAG PDF chatbot for real-time contextual question answering from uploaded documents.",
+      "Integrated Qdrant for semantic search and embedding-based document retrieval..",
+      "Implemented document chunking and retrieval pipelines using LangChain to improve response accuracy.",
+      "Deployed the application on cloud platforms with secure API management and scalable AI integration.",
     ],
-    href: "https://github.com/varunkm11/Ecommerce-Website", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/RAG-PDF-CHATBOT", // Replace with your actual GitHub repo URL
     logo: "",
-    image: "/assets/projects/ecommerce.png",
+    image: "/assets/projects/Rag_Bot.png",
     tags: [
       {
         id: 1,
-        name: "Flask",
-        path: "/assets/logos/Flask.svg",
-      },
-      {
-        id: 2,
         name: "Python",
         path: "/assets/logos/Python.svg",
       },
       {
+        id: 2,
+        name: "LangChain",
+        path: "/assets/logos/langchain.svg",
+      },
+      {
         id: 3,
-        name: "JSON",
-        path: "/assets/logos/bracket-curly.png",
+        name: "Qdrant",
+        path: "/assets/logos/Qdrant.svg",
       },
       {
         id: 4,
-        name: "HTML5",
-        path: "/assets/logos/HTML5.svg",
-      },
-      {
-        id: 5,
-        name: "CSS3",
-        path: "/assets/logos/CSS3.svg",
+        name: "Google Gemini API",
+        path: "/assets/logos/Gemini_API.png",
       },
     ],
   },
@@ -51,7 +46,7 @@ export const myProjects = [
       "Django backend manages core logic and API endpoints.",
       "User data securely stored using a protected SQLite database.",
     ],
-    href: "https://ai-resume-analyzer-teal.vercel.app/", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/ChurnGaurd-AI", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/resume_ai.png",
     tags: [
@@ -90,8 +85,6 @@ export const myProjects = [
   {
     id: 3,
     title: "Expense Tracker",
-    description:
-      "A modern, interactive web application built with React for the frontend and FastAPI (Python) for the backend, utilizing PostgreSQL for reliable data storage.",
     subDescription: [
       "Developed a fully interactive Single Page Application (SPA) using React.",
       "Implemented state management with Redux for efficient data handling.",
@@ -122,18 +115,16 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "AI-Chatbot",
-    description:
-      "A lightweight Streamlit app that uses open-source AI models via OpenRouter API to generate creative chatbot responses.",
+    title: "ChurnGaurd-AI",
     subDescription: [
-      'Built a responsive chatbot interface using Streamlit and Python.',
-      'Integrated OpenRouter API to leverage powerful open-source AI models.',
-      'Implemented secure API key management with Streamlit secrets.',
-      'Designed for fast, creative responses and an intuitive user experience.',
+      'Developed an AI-powered customer churn prediction system capable of identifying high-risk customers using Machine Learning models.',
+      'Performed end-to-end data analysis and feature engineering on real-world telecom customer data to improve prediction accuracy and business insights.',
+      'Built a modern interactive dashboard using Streamlit and Plotly with responsive visualizations, real-time predictions, and customer analytics.',
+      'Deployed the complete application on Render with scalable cloud-based access and production-ready project architecture.',
     ],
-    href: "https://roseew-ai-chatbot.vercel.app/", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/ChurnGaurd-AI", // Replace with your actual GitHub repo URL
     logo: "",
-    image: "/assets/projects/bot_preview.png",
+    image: "/assets/projects/ChurnGuard_AI.png",
     tags: [
       {
         id: 1,
@@ -142,23 +133,18 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Flask",
-        path: "/assets/logos/Flask.svg",
+        name: "XGBoost",
+        path: "/assets/logos/xgboost.svg",
       },
       {
         id: 3,
-        name: "HTML5",
-        path: "/assets/logos/HTML5.svg",
+        name: "Scikit-learn",
+        path: "/assets/logos/scikit-learn.svg",
       },
       {
         id: 4,
-        name: "OpenRouter",
-        path: "/assets/logos/OpenRouter.svg",
-      },
-      {
-        id: 5,
-        name: "Vercel",
-        path: "/assets/logos/Vercel.svg",
+        name: "Plotly",
+        path: "/assets/logos/Plotly.svg",
       },
     ],
   },
@@ -235,9 +221,9 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "Twitter",
-    href: "https://x.com/Varun253637",
-    icon: "/assets/socials/X.svg",
+    name: "LeetCode",
+    href: "https://leetcode.com/u/varunkm11/",
+    icon: "/assets/socials/Leetcode.svg",
   },
   {
     name: "Linkedin",
