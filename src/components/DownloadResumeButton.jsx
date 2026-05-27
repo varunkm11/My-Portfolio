@@ -8,13 +8,13 @@ const DownloadResumeButton = () => {
   const handleDownload = () => {
     setIsDownloading(true);
     
+    // Open Google Drive link in new tab immediately (triggered by user click, so less likely to be blocked)
+    const driveLink = 'https://drive.google.com/file/d/1R7A6FkHxHp1vk-uzABj85eaOx23u1Yun/view?usp=sharing';
+    window.open(driveLink, '_blank');
+    
     // Simulate loading process
     setTimeout(() => {
       setIsDownloading(false);
-      
-      // Open Google Drive link in new tab (users can preview and download from there)
-      const driveLink = 'https://drive.google.com/file/d/1R7A6FkHxHp1vk-uzABj85eaOx23u1Yun/view?usp=sharing';
-      window.open(driveLink, '_blank');
     }, 1000);
   };
 
