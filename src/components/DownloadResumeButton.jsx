@@ -9,7 +9,7 @@ const DownloadResumeButton = () => {
     setIsDownloading(true);
     
     // Open Google Drive download link in new window
-    const driveLink = 'https://drive.google.com/file/d/1R7A6FkHxHp1vk-uzABj85eaOx23u1Yun/view?usp=sharing';
+    const driveLink = 'https://drive.google.com/file/d/1CFtUegRHIhyEh6IKgrWh9rI3-2hmHzbf/view?usp=sharing';
     window.open(driveLink, '_blank');
     
     // Simulate loading process
