@@ -10,7 +10,7 @@ export const myProjects = [
     ],
     href: "https://github.com/varunkm11/RAG-PDF-CHATBOT", // Replace with your actual GitHub repo URL
     logo: "",
-    image: "/assets/projects/Rag_Bot.png",
+    image: "/assets/projects/Rag_bot.png",
     tags: [
       {
         id: 1,
