@@ -9,7 +9,7 @@ const HeroText = () => {
     visible: { opacity: 1, x: 0 },
   };
   return (
-    <div className="relative z-10 mt-20 text-center md:mt-50 md:text-left flex flex-col items-start c-space">
+    <div  className="relative z-10 mt-20 flex flex-col items-center text-center md:mt-50 md:items-start md:text-left c-space">
       <motion.h1
         className="text-4xl font-medium"
         variants={variants}
@@ -36,7 +36,7 @@ const HeroText = () => {
       >
         <FlipWords
           words={words}
-          className="font-black text-white text-8xl"
+          className="font-black text-white text-5xl sm:text-6xl md:text-8xl"
         />
       </motion.div>
       <motion.p

@@ -37,16 +37,14 @@ export const myProjects = [
   {
     id: 2,
     title: "AI-Resume Analyzer",
-    description:
-      "Secure Auth0-based authentication and authorization to protect user access and resume data in the AI Resume Analyzer.",
     subDescription: [
-      "Auth0 integration enables secure authentication with OAuth, JWT, and multi-factor support.",
+      "Secure Auth0-based authentication and authorization to protect user access and resume data in the AI Resume Analyzer.",
       "Role-based access control (RBAC) provides granular user permissions.",
       "Modern React frontend styled with Tailwind CSS for an intuitive interface.",
       "Django backend manages core logic and API endpoints.",
       "User data securely stored using a protected SQLite database.",
     ],
-    href: "https://github.com/varunkm11/ChurnGaurd-AI", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/AI-Resume-Analyzer", // Replace with your actual GitHub repo URL
     logo: "",
     image: "/assets/projects/resume_ai.png",
     tags: [
@@ -84,22 +82,21 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Expense Tracker",
+    title: "PredictIQ",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using React.",
-      "Implemented state management with Redux for efficient data handling.",
-      "Created a responsive and user-friendly interface with Tailwind CSS.",
-      "Integrated FastAPI for a robust backend, providing RESTful API endpoints.",
-      "Utilized PostgreSQL for efficient and reliable data storage, ensuring data integrity and performance.",
+      "Built PredictIQ, an AutoML inference platform that trains and deploys binary classification models on any uploaded dataset.",
+      "Engineered an automated preprocessing pipeline handling missing values, categorical encoding, and feature scaling using Scikit-learn.",
+      "Implemented XGBoost-based model training with dynamic column detection, eliminating manual feature engineering.",
+      "Developed a REST API with FastAPI to serve real-time and batch predictions with confidence scores.",
     ],
-    href: "https://github.com/varunkm11/Expense-Tracker", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/PredictIQ", // Replace with your actual GitHub repo URL
     logo: "",
-    image: "/assets/projects/Expense_Tracker.png",
+    image: "/assets/projects/Predictiq.png",
     tags: [
       {
         id: 1,
-        name: "React",
-        path: "/assets/logos/React.svg",
+        name: "Python",
+        path: "/assets/logos/Python.svg",
       },
       {
         id: 2,
@@ -108,19 +105,30 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "PostgreSQL",
-        path: "/assets/logos/Postgresql.svg",
+        name: "XGBoost",
+        path: "/assets/logos/xgboost.svg",
       },
+      {
+        id: 4,
+        name: "Streamlit",
+        path: "/assets/logos/Streamlit.svg",
+      },
+      {
+        id: 5,
+        name: "Docker",
+        path: "/assets/logos/Docker.svg",
+      },
+      
     ],
   },
   {
     id: 4,
     title: "ChurnGaurd-AI",
     subDescription: [
-      'Developed an AI-powered customer churn prediction system capable of identifying high-risk customers using Machine Learning models.',
-      'Performed end-to-end data analysis and feature engineering on real-world telecom customer data to improve prediction accuracy and business insights.',
-      'Built a modern interactive dashboard using Streamlit and Plotly with responsive visualizations, real-time predictions, and customer analytics.',
-      'Deployed the complete application on Render with scalable cloud-based access and production-ready project architecture.',
+      "Developed an AI-powered customer churn prediction system capable of identifying high-risk customers using Machine Learning models.",
+      "Performed end-to-end data analysis and feature engineering on real-world telecom customer data to improve prediction accuracy and business insights.",
+      "Built a modern interactive dashboard using Streamlit and Plotly with responsive visualizations, real-time predictions, and customer analytics.",
+      "Deployed the complete application on Render with scalable cloud-based access and production-ready project architecture.",
     ],
     href: "https://github.com/varunkm11/ChurnGaurd-AI", // Replace with your actual GitHub repo URL
     logo: "",
@@ -150,18 +158,16 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "Object detection System",
-    description:
-      "A highly adaptable object detection system engineered for optimal performance and accuracy.",
+    title: "Sales Performance Dashboard",
     subDescription: [
-      "Developed a responsive object detection interface using modern HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS to deliver a contemporary and visually appealing user experience.",
-      "Enhanced performance and efficiency, leveraging Vite.js for rapid development and optimized builds.",
-      "Implemented custom modules and ensured compatibility with various plugins to extend system functionality.",
+      "Built a Sales Performance Analytics Dashboard using Python, Pandas, and Power BI.",
+      "Performed data cleaning, transformation, and exploratory data analysis on retail sales data.",
+      "Developed interactive dashboards to visualize revenue, profit, profit margin, customer performance, and regional trends.",
+      "Automated data processing workflows and integrated analytical outputs into Power BI visualizations.",
     ],
-    href: "https://github.com/varunkm11/Object-Detection-System", // Replace with your actual GitHub repo URL
+    href: "https://github.com/varunkm11/Sales-Performance-Dashboard", // Replace with your actual GitHub repo URL
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/Sales_project.png",
     tags: [
       {
         id: 1,
@@ -170,13 +176,18 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "OpenCV",
-        path: "/assets/logos/opencv.svg",
+        name: "Pandas",
+        path: "/assets/logos/Pandas.svg",
       },
       {
         id: 3,
-        name: "Yolo",
-        path: "/assets/logos/yolo.svg",
+        name: "Matplotlib",
+        path: "/assets/logos/Matplotlib.svg",
+      },
+      {
+        id: 4,
+        name: "Power BI",
+        path: "/assets/logos/Powerbi.svg",
       },
     ],
   },
@@ -238,12 +249,12 @@ export const mySocials = [
 ];
 
 export const experiences = [
-    {
+  {
     title: "Business Web Solutions",
     job: "Web Developer Intern",
     date: " May 2025 - July 2025",
     contents: [
-      "• Web Application Development: Built interactive web apps using HTML, CSS, JavaScript, Node.js, and MongoDB.",     
+      "• Web Application Development: Built interactive web apps using HTML, CSS, JavaScript, Node.js, and MongoDB.",
       "• Team Collaboration: Assisted in developing backend logic and integrating databases alongside senior developers.",
       "• Debugging and Optimization: Identified and resolved performance issues to improve functionality and user experience.",
       "• Cross-Platform Support: Ensured scalability and compatibility across devices and browsers.",
